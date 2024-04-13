@@ -1,0 +1,362 @@
+/*------media query responsive------------ */
+@media(max-width:1370px) {
+    header {
+        padding: 15px 4%;
+        transition: .2s;
+    }
+
+    section {
+        padding: 0px 4%;
+        transition: .2s;
+    }
+
+}
+
+@media(max-width:1020px) {
+    .nav-bar a {
+        color: white;
+        margin: 0px 15px;
+        transition: .2s;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:950px) {
+    .fa-align-justify {
+        font-size: 35px;
+        margin-left: 220px;
+    }
+}
+/*-------mode tablette---*/
+@media(max-width:800px){
+    .bi-justify {
+            font-size: 45px;
+            margin-left: 120px;
+        }
+    /*----navabar-------------------*/
+    .navbar {
+        margin-left: -20px;
+        border-radius: 10px;
+        margin-right: -900px;
+        position: fixed;
+        width: 110%;
+        height: 50vh;
+        top: 80px;
+        margin-top: -900%;
+        flex-direction: column;
+        background-color: #a855f7;
+        transition: all 1s;
+    }
+   .navbar li a {
+       color: white;
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 19px;
+       margin-left: 150px;
+   }
+  /*----navabar-------------------*/
+  /*----section home------------*/
+  .home {
+      max-width: auto;
+      width: auto;
+      flex-wrap: wrap;
+      height: 120vh;
+  }
+
+  .home .Home-text {
+      order: 2;
+      margin-left: 5px;
+      margin-top: -50px;
+  }
+
+  .home .Home-text h1 {
+      width: 150%;
+      margin-left: -30px;
+      padding: 5px;
+  }
+
+  .home .Home-text p {
+      font-size: 20px;
+      padding: 5px;
+      width: 170%;
+      margin-left: -30px;
+      line-height: 1.4rem;
+  }
+
+  .home .Home-text .Home-btn {
+      margin-top: -7px;
+      width: 100%;
+      margin-left: -40px;
+  }
+
+  .home .Home-text .Home-btn .btn {
+      padding: 10px 20px;
+  }
+
+  .Home-img {
+      height: auto;
+      width: auto;
+      margin: auto;
+      margin-top: -100px;
+  }
+
+  .Home-img .img-text {
+      max-height: 500px;
+      max-width: 450px;
+      width: 95%;
+  }
+
+  /*----section home------------*/
+ /*----section about------------*/
+ .About .conte-about .about-img{
+    width: 180%;
+}
+.About .conte-about .about-text{
+    margin-left: 170px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.About .conte-about .about-text h1{
+    font-size: 25px;
+    padding: 10px;
+}
+.About .conte-about .about-text h2{
+    font-size: 15px;
+    padding: 10px;
+}
+.About .conte-about .about-text p{
+    padding: 10px;
+}
+ /*----section about ------------*/
+/*----section service ------------*/
+
+.Service  .card_box .box{
+    height: 340px;
+}
+.Service .card_box .box i{
+    margin-left: 50px;
+}
+.Service .card_box .box h1{
+    margin-top: 20px;
+}
+.Service .card_box .box p{
+    font-size: 16px;
+    margin-top: 30px;
+}
+/*----section service ------------*/
+    .mobile {
+        margin-top: 0px;
+    }
+    .navbar{
+        background-color: #a855f7;
+    }
+    .navbar li a{
+        color: white;
+    }
+}
+/*------- fin mode tablette---*/
+/*--------mode mobile--------*/
+@media(max-width:500px) {
+    .bi-justify {
+        font-size: 35px;
+        margin-left: 200px;
+    }
+    /*----navabar-------------------*/
+   
+    .navbar {
+        margin-left: -20px;
+        border-radius: 10px;
+        margin-right: -390px;
+        position: fixed;
+        width: 110%;
+        height: 50vh;
+        margin-top: -900%;
+        top: 80px;
+        flex-direction: column;
+        background-color:beige;
+        transition: all 1s;
+    }
+
+    .navbar li a {
+        color: grey;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 19px;
+        margin-left: 90px;
+    }
+    
+    /*----navabar------------------*/
+    /*----section home------------*/
+      section{
+        padding: 90px 4%;
+    }
+    .home {
+        max-width: auto;
+        width: auto;
+        flex-wrap: wrap;
+    }
+    .home .Home-text {
+        order: 1;
+        margin-left: 5px;
+        margin-top: -40px;
+    }
+    .home .Home-text h1{
+        width: 150%;
+        margin-left: -100px;
+    }
+    .home .Home-text p {
+        font-size: 15px;
+        width: 170%;
+        margin-left: -100px;
+        line-height: 1.4rem;
+    }
+    .home .Home-text .Home-btn{
+        margin-top: -7px;
+        width: 100%;
+        margin-left: -110px;
+    }
+    .home .Home-text .Home-btn .btn{
+        padding: 10px 20px;
+    }
+    .Home-img {
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+
+  .Home-img .img-text{
+      max-height: 500px;
+      max-width: 450px;
+      width: 95%;
+  }
+  /*----section home------------*/
+  /*----section about------------*/
+  .About{
+    width: 50%;
+  }
+  .conte-about{
+    flex-direction: column;
+  }
+ .About .conte-about .about-text{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 100%;
+  }
+   .About.conte-about .about-text h1, h2{
+    font-size: 20px;
+    width: 230%;
+   }
+    .conte-about .about-text p{
+        font-size: 19px;
+        width: 220%;
+        margin-top: 5px;
+    }
+  .conte-about .about-text .icone{
+    margin-top: 13px;
+    font-size: 16px;
+    width: 190%;
+  }
+  .About .conte-about .about-img img{
+      width: 130%;
+      margin-left: 20px;
+  }
+ /*----section about------------*/
+ /*----section service------------*/
+ .Service{
+    min-height: 200vh;
+ }
+ .Service .service-text .p {
+    width: 90%;
+}
+.card_box {
+    flex-direction: column;
+}
+.Service .card_box .box{
+    width: 270px;
+}
+.Service .card_box .box .bi-laptop{
+    margin-left: 90px;
+}
+.Service .card_box .box .bi-tablet {
+    margin-left: 90px;
+}
+.Service .card_box .box .bi-server {
+    margin-left: 90px;
+}
+.Service .card_box .box p {
+    margin-top: 20px;
+}
+/*------------Section contact-------*/
+.contact{
+    width: 100%;
+    height: 120vh;
+}
+.form input{
+    margin-left: -70px;
+    width: 300px;
+}
+.contact textarea{
+    width:300px;
+    height: 120px;
+    margin-left: -70px;
+}
+
+/* ------------Section contact-------------------- */
+/* ------------------------footer----------*/
+
+.lis {
+    flex-direction: column;
+}
+
+.lis li {
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+}
+
+.copyright {
+    margin-top: 10px;
+}
+
+/* ------------------------footer----------*/
+/*----section service------------*/
+    .mobile {
+        margin-top: 0px;
+    }
+}
+    @media(max-width:450px){
+    .bi-justify {
+        font-size: 35px;
+        margin-left: 130px;
+    }
+
+    .navbar {
+        margin-left: -20px;
+        border-radius: 10px;
+        margin-right: -390px;
+        position: fixed;
+        width: 110%;
+        height: 50vh;
+        margin-top: -900%;
+        top: 80px;
+        flex-direction: column;
+        background-color: #a855f7;
+        transition: all 1s;
+    }
+
+    .navbar li a {
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 19px;
+        margin-left: 90px;
+    }
+
+    .mobile {
+        margin-top: 0px;
+    }
+
+    }
+
+/*--------mode mobile--------*/
+
+
+/* ---------media query responsive------------ */
